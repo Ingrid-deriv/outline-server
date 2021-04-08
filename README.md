@@ -10,13 +10,13 @@ Go to https://getoutline.org for ready-to-use versions of the software.
 
 ## Components
 
-The system comprises the following components:
+# The system comprises the following components:
 
 - **Outline Server**: a proxy server that runs a Shadowsocks instance for each
   access key and a REST API to manage the access keys. The Outline Server runs
   in a Docker container in the host machine.
 
-  See [`src/shadowbox`](src/shadowbox)
+  - See [`src/shadowbox`](src/shadowbox)
 
 - **Outline Manager:** an [Electron](https://electronjs.org/) application that
   can create Outline Servers on the cloud and talks to their access key
